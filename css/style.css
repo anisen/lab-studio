@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+/*NAVBAR*/
+nav h1{
+	font-family: 'Dancing Script', cursive;
+	color: #fed136;
+	font-size: 30px;
+	margin-left: 80px;
+}
+nav ul{
+	margin-left: 350px;
+	margin-top: 10px;
+}
+nav li{
+	display: block;
+	float: left;
+	padding: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.contenedor-img{
+	background-image: url(../img/header-bg.jpg);
+	background-size: cover;
+	height: 600px;
+}
+.titulo-header{
+	text-align: center;
+	margin-top: 200px;
+}
+#h2-header{
+	font-family: 'Old Standard TT', serif;
+	font-size: 50px;
+}
+#h1-header{
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+#boton-header{
+	font-size: 20px;
+	width: 250px;
+	font-weight: bold;
+	border-style: none;
+	border-radius: 4px;
+	background-color: #fed136;
+	padding: 20px;
+}
+
+/* SERVICES */
+
+.contenedor-services{
+	background-color: whitesmoke;
+	height: 570px;
+	text-align: center;
+}
+.contenedor-titulo h1{
+	color: #333333;
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: 100px;
+}
+.p-titulo{
+	font-family: 'Old Standard TT', serif;
+	color: #777;
+	font-size: 20px;
+}
+.todos-services{
+	margin-top: 50px;
+}
+.h3-services{
+	color: #33334d;
+}
+.p-services{
+	color: #777;
+	font-family: 'Old Standard TT', serif;
+	font-size: 17px;
+}
+
+.icon{
+	background-color: #fed136;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	font-size: 40px;
+	padding-top: 17px;
+	margin-left: 160px;
+	margin-bottom: 20px;
+}
+
+/* PORTFOLIO */
+
+.portafolio{
+	background-color: #eee;
+	height: 1150px;
+	text-align: center;
+}
+#h1-portafolio{
+	color: #333;
+}
+.segunda-linea{
+	padding: 50px;
+	margin: 10px;
+}
+.primera-linea{
+	padding: 50px;
+	margin: 10px;
+}
+.caja-blanca{
+	height: 100px;
+	background-color: white;
+	margin-left: 15px;
+}
+
+/*  A B O U T */
+
+.contenedor-about{
+	background-color: white;
+	height: 1500px;
+	text-align: center;
+}
+.texto-izquierda{
+	text-align: right;
+}
+.img-circulo{
+	border-radius: 50%;
+}
