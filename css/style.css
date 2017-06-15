@@ -28,7 +28,7 @@ nav a{
 .contenedor-img{
 	background-image: url(../img/header-bg.jpg);
 	background-size: cover;
-	height: 600px;
+	height: 700px;
 }
 .titulo-header{
 	text-align: center;
@@ -122,7 +122,7 @@ nav a{
 
 .contenedor-about{
 	background-color: white;
-	height: 1500px;
+	height: 1900px;
 	text-align: center;
 }
 .texto-izquierda{
@@ -130,4 +130,68 @@ nav a{
 }
 .img-circulo{
 	border-radius: 50%;
+	border: 9px solid #f1f1f1;
+}
+.ultimo-circulo{
+	background-color: #fed136;
+	width: 210px;
+	height: 210px;
+}
+.h3-ultimo-circulo{
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	font-size: 29px;
+}
+.texto-derecha{
+	text-align: left;
+    margin-top: 100px;
+}
+.parrafos-derecha{
+	position: relative;
+	bottom: 200px;
+	left: 10px;
+}
+/* T E A M */
+
+#contenedor-team{
+	background-color: #eee;
+	height: 750px;
+	text-align: center;
+}
+.titulo-team{
+	margin: 30px;
+}
+.primeraimg-team{
+	margin-left: 150px;
+}
+.img-circulo-team{
+	border-radius: 50%;
+	border:8px solid white;
+}
+.icons-circulo{
+	width: 45px;
+	height: 45px;
+	background-color: #222222;
+	border-radius:50%;
+	color: white;
+	font-size: 30px;
+	float: left;
+	margin: 10px 14px;
+}
+#ultimo-p-team{
+	margin-top: 50px;
+}
+/* EMPRESAS */
+
+#contenedor-empresas{
+	height: 150px;
+	background-color: white;
+}
+#primer-logo{
+	margin-left: 200px;
+}
+#todos-logos{
+	margin-top: 50px;
 }
