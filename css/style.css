@@ -224,17 +224,20 @@ nav a{
 }
 #boton-mapa{
 	background-color: #fed136;
-	color: white;
 	padding: 20px;
 	width: 200px;
 	border-style: none;
 	border-radius: 5px;
 	margin-top: 100px;
 }
+input{
+	color: black;
+}
 /* F O O T E R */
 #contenedor-footer{
 	height: 120px;
 	background-color: white;
+	text-align: center;
 }
 #terminosdeuso{
 	color: #fed136;
