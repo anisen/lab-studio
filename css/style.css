@@ -146,7 +146,7 @@ nav a{
 }
 .texto-derecha{
 	text-align: left;
-    margin-top: 100px;
+	margin-top: 100px;
 }
 .parrafos-derecha{
 	position: relative;
@@ -198,9 +198,54 @@ nav a{
 /* MAPA */
 
 #contenedor-mapa{
-	height: 600px;
+	height: 700px;
 	background-image: url(../img/map-image.png);
 	background-color: #222222;
 	background-size: cover;
 	text-align: center;
+}
+.input-mapa{
+	height: 70px;
+	border-style: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+#tarea-mapa{
+	height: 260px;
+	border-radius: 10px;
+	margin: 10px;
+}
+.titulo-mapa{
+	margin-top: 80px;
+}
+#todos-input{
+	position: relative;
+	top: 70px;
+}
+#boton-mapa{
+	background-color: #fed136;
+	color: white;
+	padding: 20px;
+	width: 200px;
+	border-style: none;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+/* F O O T E R */
+#contenedor-footer{
+	height: 120px;
+	background-color: white;
+}
+#terminosdeuso{
+	color: #fed136;
+	padding: 10px;
+}
+#Copyright{
+	color: black;
+}
+#todo-footer{
+	margin-top: 40px;
+}
+#primer-contenedor{
+	margin-left: 200px;
 }
